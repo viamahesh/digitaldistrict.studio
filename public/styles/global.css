@@ -5,7 +5,7 @@
 /* --- start of general styles --- */
 body {
 	color: #0c2840;
-	font-family: 'Mulish', sans-serif;
+	font-family: 'Barlow', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -281,8 +281,8 @@ header nav ul li:nth-child(5) {
 /* --- end of services --- */
 /* --- start of contact --- */
 #contact {
-	background: #0c2840 url('../images/footer-img.png') 420px 120px no-repeat;
-	background-size: 30%;
+	background: #0c2840 url('../images/footer-img.png') 280px 180px no-repeat;
+	background-size: 45%;
 	color: #ffffff;
 	padding: 150px 0 190px 0;
 }
@@ -317,7 +317,7 @@ header nav ul li:nth-child(5) {
 }
 
 .contact-intro p {
-	font-family: 'Mulish', sans-serif;
+	color: #bcd5e2;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 45px;
@@ -347,6 +347,20 @@ header nav ul li:nth-child(5) {
 .social-menu li:nth-child(2) {
 	background: url(../images/linkedin.png) 0 0 no-repeat;
 	background-size: 32px;
+}
+
+.courtesy-text {
+	color: #bcd5e2;
+	font-size: 12px !important;
+	font-weight: 200 !important;
+    line-height: 17px !important;
+	margin-top: 40px !important;
+	text-indent: 0 !important;
+	width: 65%;
+}
+
+.courtesy-text span {
+	font-weight: 600 !important;]
 }
 
 /* --- end of contact --- */
@@ -402,11 +416,12 @@ header nav ul li:nth-child(5) {
 }
 
 .pricing-list li:not(.features-list li) {
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 	float: left;
-	margin-bottom: 45px;
-	margin-right: 4%;
+	margin: 0 4% 45px 1%;
 	position: relative;
-	width: 30%;
+	width: 29%;
 }
 
 .pricing-content {
@@ -436,12 +451,13 @@ header nav ul li:nth-child(5) {
 .pricing-content p {
 	border-bottom: 1px solid #4994cd;
 	color: #777777;
-	font-weight: 200;
-	line-height: 22px;
-	padding-bottom: 25px;
+    font-size: 16px;
+	font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 20px;
 }
 
-.list-one-item {
+/* .list-one-item {
 	border: 2px solid #4994cd;
 }
 
@@ -451,7 +467,7 @@ header nav ul li:nth-child(5) {
 
 .list-three-item {
 	border: 2px solid #55d4d2;
-}
+} */
 
 .price-item-badge {
 	background-size: 36px;
