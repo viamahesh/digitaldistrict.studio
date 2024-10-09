@@ -649,6 +649,12 @@ header nav ul li:nth-child(5) {
 	}
 }
 
+@media only screen and (max-width: 450px) {
+	.homepage-illustrator-column {
+		height: 350px;
+	}
+}
+
 @media only screen and (max-width: 375px) {
 	header h1 {
 		margin: 5px 0;
@@ -709,6 +715,7 @@ header nav ul li:nth-child(5) {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
+	float: left;
 	margin: 15px 0;
 }
 
