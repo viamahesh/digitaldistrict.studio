@@ -189,7 +189,7 @@ header nav ul li:nth-child(5) {
 
 .main-title {
 	font-size: 28px;
-	font-weight: 900;
+	font-weight: 700;
 	letter-spacing: 1px;
 }
 
@@ -652,6 +652,9 @@ header nav ul li:nth-child(5) {
 @media only screen and (max-width: 450px) {
 	.homepage-illustrator-column {
 		height: 350px;
+	}
+	header nav ul li {
+		margin-right: 25px;
 	}
 }
 
