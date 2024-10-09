@@ -558,6 +558,7 @@ header nav ul li:nth-child(5) {
 	}
 
 	.homepage-illustrator-column {
+		margin-bottom: 50px;
 		width: 65%;
 	}
 }
@@ -597,7 +598,7 @@ header nav ul li:nth-child(5) {
 	.about-illustrator-column {
 		background-position: center;
 		height: 338px;
-		margin: 0 auto;
+		margin: 0 auto 50px 0;
 		width: 100%;
 	}
 
@@ -623,7 +624,7 @@ header nav ul li:nth-child(5) {
 		float: none;
 		margin-bottom: 45px;
 		margin-right: 0;
-		width: 100%;
+		width: 95%;
 	}
 }
 
@@ -641,6 +642,10 @@ header nav ul li:nth-child(5) {
 @media only screen and (max-width: 550px) {
 	.services-row div {
 		width: 100%;
+	}
+	.homepage-illustrator-column {
+		height: 450px;
+		margin-top: 60px;
 	}
 }
 
