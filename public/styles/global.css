@@ -97,7 +97,7 @@ header h1 {
 header h1 a {
 	display: block;
 	height: 51px;
-	width: 221px;
+	width: 110px;
 }
 
 header div {
@@ -344,10 +344,16 @@ header nav ul li:nth-child(5) {
 	margin-right: 15px;
 }
 
-.social-menu li:nth-child(2) {
+
+.social-menu li:nth-child(1) a {
+	display: block;
+	height: 32px;
+	width: 32px;
+}
+/* .social-menu li:nth-child(2) {
 	background: url(../images/linkedin.png) 0 0 no-repeat;
 	background-size: 32px;
-}
+} */
 
 .courtesy-text {
 	color: #bcd5e2;
@@ -416,8 +422,7 @@ header nav ul li:nth-child(5) {
 }
 
 .pricing-list li:not(.features-list li) {
-	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	border: 3px dashed #ffa89c;
 	float: left;
 	margin: 0 4% 45px 1%;
 	position: relative;
