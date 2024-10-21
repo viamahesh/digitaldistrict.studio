@@ -59,6 +59,9 @@ a:hover {
 	float: right !important;
 }
 
+.no-right-margin {
+	margin-right: 0 !important;
+}
 /* --- end of general classes --- */
 
 /* --- end of general styles --- */
@@ -344,16 +347,11 @@ header nav ul li:nth-child(5) {
 	margin-right: 15px;
 }
 
-
 .social-menu li:nth-child(1) a {
 	display: block;
 	height: 32px;
 	width: 32px;
 }
-/* .social-menu li:nth-child(2) {
-	background: url(../images/linkedin.png) 0 0 no-repeat;
-	background-size: 32px;
-} */
 
 .courtesy-text {
 	color: #bcd5e2;
@@ -410,9 +408,9 @@ header nav ul li:nth-child(5) {
 	background: #fff;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	float: left;
-	margin: 40px 3% 0 0;
+	margin: 40px 6% 0 0;
 	padding: 2%;
-	width: 26%;
+	width: 43%;
 }
 
 .work-website-element h3 { 
