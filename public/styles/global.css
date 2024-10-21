@@ -406,6 +406,38 @@ header nav ul li:nth-child(5) {
 	margin-right: 0;
 }
 
+.work-website-element {
+	background: #fff;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	float: left;
+	margin: 40px 3% 0 0;
+	padding: 2%;
+	width: 26%;
+}
+
+.work-website-element h3 { 
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.work-website-element p { 
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.work-website-element a { 
+	background: #5e83a2;
+	color: #ffffff;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 40px;
+	padding: 0 15px;
+}
 /* --- end of work --- */
 
 /* --- start of prices --- */
@@ -461,18 +493,6 @@ header nav ul li:nth-child(5) {
     line-height: 20px;
     padding-bottom: 20px;
 }
-
-/* .list-one-item {
-	border: 2px solid #4994cd;
-}
-
-.list-two-item {
-	border: 2px solid #e06a8c;
-}
-
-.list-three-item {
-	border: 2px solid #55d4d2;
-} */
 
 .price-item-badge {
 	background-size: 36px;
