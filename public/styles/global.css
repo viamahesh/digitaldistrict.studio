@@ -171,7 +171,7 @@ header nav ul li:nth-child(5) {
 /* --- start of home --- */
 #home {
 	background: #bcd5e2;
-	padding: 130px 0 60px 0;
+	padding: 60px 0;
 }
 
 .homepage-data-column {
@@ -222,7 +222,7 @@ header nav ul li:nth-child(5) {
 /* --- end of home --- */
 /* --- start of about --- */
 #about {
-	padding-top: 80px;
+	padding-top: 130px;
 }
 
 .about-data-column {
@@ -442,6 +442,7 @@ header nav ul li:nth-child(5) {
 
 /* --- start of prices --- */
 #prices {
+	background: #ebeff2;
 	padding: 80px 0;
 }
 
@@ -454,7 +455,8 @@ header nav ul li:nth-child(5) {
 }
 
 .pricing-list li:not(.features-list li) {
-	border: 3px dashed #ffa89c;
+	background: #fff;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	float: left;
 	margin: 0 4% 45px 1%;
 	position: relative;
